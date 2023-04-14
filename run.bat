@@ -1,3 +1,12 @@
+echo Starting WinXCorners…
 start WinXCorners.exe
+
+echo Starting CenterTaskbar…
 start CenterTaskbar.exe
-start RoundedTB\RoundedTB.exe
+
+echo Starting RoundedTB…
+cd RoundedTB
+start RoundedTB.exe
+cd ..
+
+echo All programs started!
